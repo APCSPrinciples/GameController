@@ -1,9 +1,9 @@
 # Build a Mario Game Controller
-In this lab we will build a game controller. We'll use it to control a Mario character.
+In this lab we will build a game controller for a Mario game.
 
 ### Step 1: Build the circuit
 Our Game Controller will use the following parts:
-- One or more push buttons
+- Three (or more) push buttons
 - A 10KΩ resistor for each push button
 - Jumper wires   
 
@@ -16,8 +16,8 @@ Use the following circuit diagram to construct the circuit. The direction of the
 ### Step 2: Test the circuit
 TBD
 
-### Step 3: Download the artwork for the Mario game
-Right click [`MarioBase.sb`](MarioBase.sb) and choose *Save link as. . .*. Save the file to your *Scratch Projects* folder in your *Documents* folder. Open the S4a program and then choose *File | Open* and browse to and select `MarioBase.sb`.
+### Step 3: Download the artwork for the Mario game and open it in S4A
+Right click [`MarioBase.sb`](MarioBase.sb) and choose *Save link as*. Save the file to your *Scratch Projects* folder in your *Documents* folder. Open the S4a program and then choose *File | Open* and browse to and select `MarioBase.sb`.
 
 ### Step 3: Write the program
 TBD

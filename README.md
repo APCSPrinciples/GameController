@@ -46,4 +46,4 @@ If he does, have him change his y coordinate to -115 and point him in the 0 d
 You can test your program by dragging Mario with the mouse. If Mario is in the air, the goomba should squish, but if Mario is on the ground he should die
 ![](GoombaSquish.gif)
 ### Step 8: Submit your finished program
-Have your teacher or a TA verify that you have a working program. Submit your finished program by uploading the .sb file to Google classroom. You should be able to find it in *My Documents | Scratch Projects*. If you worked with a partner, each partner should submit a copy of the finished program to Google classroom.
+The steps listed above are just suggestions to get you started. Your Mario game doesn't have to work or look like any other. Have fun and be creative. When you are finished, have your teacher or a TA verify that you have a working program. Submit your finished program by uploading the .sb file to Google classroom. You should be able to find it in *My Documents | Scratch Projects*. If you worked with a partner, each partner should submit a copy of the finished program to Google classroom.

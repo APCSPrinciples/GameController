@@ -18,7 +18,8 @@ Use the following circuit diagram to construct a circuit with one push button. T
 ![](GameController1.png)
 
 ### Step 2: Test the circuit
-Test it with a forever loop that says *Digital reading 2*. Press the button to make sure that display changes from *true* to *false*.
+Test it with a forever loop that says *Digital reading 2*. Press the button to make sure that display changes from *true* to *false*. Below is code that could be used to test a button that is connected to digital input 3.   
+![](Test.PNG)
 
 ### Step 3: Download the artwork for the Mario game and open it in S4A
 Right click [`MarioBaseV2.sb`](MarioBaseV2.sb) and choose *Save link as*. Save the file to your *Scratch Projects* folder in your *My Documents* folder. Open the S4a program and then choose *File | Open* and browse to and select `MarioBaseV2.sb`.

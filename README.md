@@ -17,7 +17,7 @@ Use the following circuit diagram to construct the circuit. The direction of the
 TBD
 
 ### Step 3: Download the artwork for the Mario game
-Right click `[MarioBase.sb]`(MarioBase.sb) and choose *Save link as. . .*. Save the file to your *Scratch Projects* folder in your *Documents* folder. Open the S4a program and then choose *File | Open* and browse to and select `MarioBase.sb`.
+Right click [`MarioBase.sb`](MarioBase.sb) and choose *Save link as. . .*. Save the file to your *Scratch Projects* folder in your *Documents* folder. Open the S4a program and then choose *File | Open* and browse to and select `MarioBase.sb`.
 
 ### Step 3: Write the program
 TBD

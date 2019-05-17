@@ -23,7 +23,7 @@ Test it with a forever loop that says *Digital reading 2*. Press the button to
 ### Step 3: Download the artwork for the Mario game and open it in S4A
 Right click [`MarioBase.sb`](MarioBase.sb) and choose *Save link as*. Save the file to your *Scratch Projects* folder in your *Documents* folder. Open the S4a program and then choose *File | Open* and browse to and select `MarioBase.sb`.
 
-### Step 3: Write code to make Mario jump
+### Step 4: Write code to make Mario jump
 Create a forever block that checks if the button is pressed. If it is, make Mario go up and then down. You should have Mario switch costumes to make a more realistic jump
 
 ### Step 5: Add two more buttons and code to make Mario walk
@@ -36,7 +36,7 @@ Now we are going to add code to our Mario program so that if Mario is jumping an
     * switch the Goomba's costume,
     * have the Goomba think "Hmm" for 2 seconds and then change everything back
  * Include a wait in the forever loop so that the if statement is checked every .1 seconds.
-You may find the blocks in the attached picture useful in solving this problem. To test your code, just click and drag Mario on top of the Goomba. Show your solution your teacher when you have it working.
+You may find the blocks in the attached picture useful in solving this problem. To test your code, just click and drag Mario on top of the Goomba. Show your solution your teacher when you have it working.   
 ![](GameController2.png)
 
 ### Step 4: Submit your finished program

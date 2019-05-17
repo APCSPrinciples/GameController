@@ -24,17 +24,18 @@ Test it with a forever loop that says *Digital reading 2*. Press the button to
 Right click [`MarioBase.sb`](MarioBase.sb) and choose *Save link as*. Save the file to your *Scratch Projects* folder in your *My Documents* folder. Open the S4a program and then choose *File | Open* and browse to and select `MarioBase.sb`.
 
 ### Step 4: Write code to make Mario jump
-Create a forever block that checks if the button is pressed. If it is, make Mario go up and then down. You should have Mario switch costumes to make a more realistic jump
+In the Mario sprite, create a forever block that checks if the button is pressed. If it is, make Mario go up and then down. You should have Mario switch costumes to make a more realistic jump
 
 ### Step 5: Add two more buttons and code to make Mario walk
 Add two buttons to your Arduino and create circuits for each. To create an animation of walking, switch back and forth between two walking costumes. Mario should move in the x direction with each costume switch. Use *wait* to pause Mario after each step. Adjust the values until you are happy with Mario's walk
 
 ### Step 6: Add the Goomba "squish"
-Now we are going to add code to our Mario program so that if Mario is jumping and he lands on the Goomba, the Goomba will squish. In the forever loop in your program:
+Now we are going to add code to the Goomba sprite in our Mario program so that if Mario is jumping and he lands on the Goomba, the Goomba will squish. Add a forever loop to the Goomba sprite and:
  * create an if statement that checks to see if the Goomba is touching Mario and Mario's y position is greater than -110. If that is true:
-    * change the Goomba's y by -10
-    * switch the Goomba's costume,
-    * have the Goomba think "Hmm" for 2 seconds and then change everything back
+    * set the Goomba's y to -140
+    * switch the Goomba's costume to squish,
+    * have the Goomba think "Hmm" for 2 seconds 
+    * change the costume and y back to what they were
  * Include a wait in the forever loop so that the if statement is checked every .1 seconds.
 You may find the blocks in the attached picture useful in solving this problem. To test your code, just click and drag Mario on top of the Goomba.      
 ![](GameController2.png)
@@ -43,6 +44,6 @@ You may find the blocks in the attached picture useful in solving this problem. 
 Create a forever block for the Mario sprite to check if he touches Goomba when he is on the ground
 If he does, have him change his y coordinate to -115 and point him in the 0 direction (up)
 You can test your program by dragging Mario with the mouse. If Mario is in the air, the goomba should squish, but if Mario is on the ground he should die
-
+![](GoombaSquish.gif)
 ### Step 8: Submit your finished program
 Have your teacher or a TA verify that you have a working program. Submit your finished program by uploading the .sb file to Google classroom. You should be able to find it in *My Documents | Scratch Projects*. If you worked with a partner, each partner should submit a copy of the finished program to Google classroom.

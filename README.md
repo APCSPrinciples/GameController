@@ -17,7 +17,7 @@ Use the following circuit diagram to construct the circuit. The direction of the
 TBD
 
 ### Step 3: Download the artwork for the Mario game
-Right click [mario-v0.4-base.xml](mario-v0.4-base.xml) and choose *Save target as*. Open the file in S4a by choosing
+Right click [MarioBase.sb](MarioBase.sb) and choose *Save target as*. Save the file to your Scratch Projects folder in your Documents folder. Open the file in S4a by choosing
 
 ### Step 3: Write the program
 TBD

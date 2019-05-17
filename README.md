@@ -21,7 +21,7 @@ Use the following circuit diagram to construct a circuit with one push button. T
 Test it with a forever loop that says *Digital reading 2*. Press the button to make sure that display changes from *true* to *false*.
 
 ### Step 3: Download the artwork for the Mario game and open it in S4A
-Right click [`MarioBase.sb`](MarioBase.sb) and choose *Save link as*. Save the file to your *Scratch Projects* folder in your *My Documents* folder. Open the S4a program and then choose *File | Open* and browse to and select `MarioBase.sb`.
+Right click [`MarioBaseV2.sb`](MarioBaseV2.sb) and choose *Save link as*. Save the file to your *Scratch Projects* folder in your *My Documents* folder. Open the S4a program and then choose *File | Open* and browse to and select `MarioBaseV2.sb`.
 
 ### Step 4: Write code to make Mario jump
 In the Mario sprite, create a forever block that checks if the button is pressed. If it is, make Mario go up and then down. You should have Mario switch costumes to make a more realistic jump

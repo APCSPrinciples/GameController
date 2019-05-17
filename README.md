@@ -21,7 +21,7 @@ Use the following circuit diagram to construct a circuit with one push button. T
 Test it with a forever loop that says *Digital reading 2*. Press the button to make sure that display changes from *true* to *false*.
 
 ### Step 3: Download the artwork for the Mario game and open it in S4A
-Right click [`MarioBase.sb`](MarioBase.sb) and choose *Save link as*. Save the file to your *Scratch Projects* folder in your *Documents* folder. Open the S4a program and then choose *File | Open* and browse to and select `MarioBase.sb`.
+Right click [`MarioBase.sb`](MarioBase.sb) and choose *Save link as*. Save the file to your *Scratch Projects* folder in your *My Documents* folder. Open the S4a program and then choose *File | Open* and browse to and select `MarioBase.sb`.
 
 ### Step 4: Write code to make Mario jump
 Create a forever block that checks if the button is pressed. If it is, make Mario go up and then down. You should have Mario switch costumes to make a more realistic jump
@@ -44,5 +44,5 @@ Create a forever block for the Mario sprite to check if he touches Goomba when h
 If he does, have him change his y coordinate to -115 and point him in the 0 direction (up)
 You can test your program by dragging Mario with the mouse. If Mario is in the air, the goomba should squish, but if Mario is on the ground he should die
 
-### Step 4: Submit your finished program
+### Step 8: Submit your finished program
 Have your teacher or a TA verify that you have a working program. Submit your finished program by uploading the .sb file to Google classroom. You should be able to find it in *My Documents | Scratch Projects*. If you worked with a partner, each partner should submit a copy of the finished program to Google classroom.

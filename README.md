@@ -24,7 +24,8 @@ Test it with a forever loop that says *Digital reading 2*. Press the button to
 Right click [`MarioBaseV2.sb`](MarioBaseV2.sb) and choose *Save link as*. Save the file to your *Scratch Projects* folder in your *My Documents* folder. Open the S4a program and then choose *File | Open* and browse to and select `MarioBaseV2.sb`.
 
 ### Step 4: Write code to make Mario jump
-In the Mario sprite, create a forever block that checks if the button is pressed. If it is, make Mario go up and then down. You should have Mario switch costumes to make a more realistic jump
+In the Mario sprite, create a forever block that checks if the button is pressed. If it is, make Mario go up and then down. You should have Mario switch costumes to make a more realistic jump. One way of making Mario jump is shown below.   
+![](Jump.PNG)
 
 ### Step 5: Add two more buttons and code to make Mario walk
 Add two buttons to your Arduino and create circuits for each. To create an animation of walking, switch back and forth between two walking costumes. Mario should move in the x direction with each costume switch. Use *wait* to pause Mario after each step. Adjust the values until you are happy with Mario's walk

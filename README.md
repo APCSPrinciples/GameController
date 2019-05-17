@@ -1,5 +1,5 @@
 # Build a Mario Game Controller
-In this lab we will build a game controller for a Mario game. Since this is a large program, we'll complete it in four parts:
+In this lab we will build a game controller for a Mario game. Since this is a large project, we'll complete it in four parts:
 1. Make Mario jump when a button is pushed
 2. Add two more buttons so that Mario can also walk left and right
 3. If Mario jumps on top of Goomba, then Goomba is "squished"

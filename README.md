@@ -1,7 +1,11 @@
 # Build a Mario Game Controller
-In this lab we will build a game controller for a Mario game.
+In this lab we will build a game controller for a Mario game. Since this is a large program, we'll complete it in four parts:
+1. Make Mario jump when a button is pushed
+2. Add two more buttons so that Mario can also walk left and right
+3. If Mario jumps on top of Goomba, then Goomba is "squished"
+4. If Goomba touches Mario the game ends
 
-### Step 1: Build the circuit
+### Step 1: Build a circuit with one button that can make Mario jump
 Our Game Controller will use the following parts:
 - Three (or more) push buttons
 - A 10KΩ resistor for each push button
@@ -10,7 +14,7 @@ Our Game Controller will use the following parts:
 Use the picture below to make sure you are using correct 10KΩ resistor.   
 ![](Theremin1.png)   
    
-Use the following circuit diagram to construct the circuit. The direction of the photoresistor and the 10KΩ resistor is unimportant.   
+Use the following circuit diagram to construct a circuit with one push button. The direction of the 10KΩ resistor is unimportant.   
 ![](GameController1.png)
 
 ### Step 2: Test the circuit

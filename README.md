@@ -28,10 +28,13 @@ Right click [`MarioBaseV2.sb`](MarioBaseV2.sb) and choose *Save link as*. Save t
 In the Mario sprite, create a forever block that checks if the button is pressed. If it is, make Mario go up and then down. You should have Mario switch costumes to make a more realistic jump. One way of making Mario jump is shown below.   
 ![](Jump.PNG)
 
-### Step 5: Add two more buttons and code to make Mario walk
-Add two buttons to your Arduino and create circuits for each. To create an animation of walking, switch back and forth between two walking costumes. Mario should move in the x direction with each costume switch. Use *wait* to pause Mario after each step. Adjust the values until you are happy with Mario's walk
+### Step 5: Write code to make Goomba walk
+To create an animation of walking, switch back and forth between the two walking costumes. Goomba should "wrap" around the screen, when  Goomba goes off one side of the screen, Goomba should then appear on the other side. Use *wait* to pause Goomba after each step. Adjust the values until you are happy with Goomba's walk
 
-### Step 6: Add the Goomba "squish"
+### Step 6: Add two more buttons and code to make Mario walk
+Add two buttons to your Arduino and create circuits for each. Just like with Goomba, switch back and forth between two walking costumes. Mario should move in the x direction with each costume switch.  
+
+### Step 7: Add the Goomba "squish"
 Now we are going to add code to the Goomba sprite in our Mario program so that if Mario is jumping and he lands on the Goomba, the Goomba will squish. Add a forever loop to the Goomba sprite and:
  * create an if statement that checks to see if the Goomba is touching Mario and Mario's y position is greater than -110. If that is true:
     * set the Goomba's y to -140
@@ -42,10 +45,11 @@ Now we are going to add code to the Goomba sprite in our Mario program so that i
 You may find the blocks in the attached picture useful in solving this problem. To test your code, just click and drag Mario on top of the Goomba.      
 ![](GameController2.png)
 
-### Step 7: Ending the game
+### Step 8: Ending the game
 Create a forever block for the Mario sprite to check if he touches Goomba when he is on the ground
 If he does, have him change his y coordinate to -115 and point him in the 0 direction (up)
 You can test your program by dragging Mario with the mouse. If Mario is in the air, the goomba should squish, but if Mario is on the ground he should die
 ![](GoombaSquish.gif)
-### Step 8: Submit your finished program
+
+### Step 9: Submit your finished program
 The steps listed above are just suggestions to get you started. Your Mario game doesn't have to work or look like any other. Have fun and be creative. When you are finished, have your teacher or a TA verify that you have a working program. Submit your finished program by uploading the .sb file to Google classroom. You should be able to find it in *My Documents | Scratch Projects*. If you worked with a partner, each partner should submit a copy of the finished program to Google classroom.

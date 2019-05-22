@@ -22,7 +22,7 @@ Test it with a forever loop that says *Digital reading 2*. Press the button to
 ![](Test.PNG)
 
 ### Step 3: Download the artwork and sounds for the Mario game and open it in S4A
-Ask your instructor for the MarioBase.sb file. (or download and extract [`Mario Scratch Projects.zip`](Mario Scratch Projects.zip) Copy the file to your *Scratch Projects* folder in your *My Documents* folder. Open the S4a program and then choose *File | Open* and browse to and select `MarioBase.sb`.
+Ask your instructor for the MarioBase.sb file. (or download and extract `Mario Scratch Projects.zip`) Copy the `MarioBase.sb` file to your *Scratch Projects* folder in your *My Documents* folder. Open the S4a program and then choose *File | Open* and browse to and select `MarioBase.sb`.
 
 ### Step 4: Write code to make Mario jump
 In the Mario sprite, create a forever block that checks if the button is pressed. If it is, make Mario go up and then down. You should have Mario switch costumes to make a more realistic jump. One way of making Mario jump is shown below.   

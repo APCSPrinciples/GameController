@@ -29,7 +29,9 @@ In the Mario sprite, create a forever block that checks if the button is pressed
 ![](Jump.PNG)
 
 ### Step 5: Write code to make Goomba walk
-To create an animation of walking, switch back and forth between the two walking costumes. Goomba should "wrap" around the screen, when  Goomba goes off one side of the screen, Goomba should then appear on the other side. Use *wait* to pause Goomba after each step. Adjust the values until you are happy with Goomba's walk
+To create an animation of walking, switch back and forth between the two walking costumes. Goomba should "wrap" around the screen, when  Goomba goes off one side of the screen, Goomba should then appear on the other side. Use *wait* to pause Goomba after each step. Adjust the values until you are happy with Goomba's walk. See the sample code below for an example.
+![](GoombaWalk.PNG)   
+![](GoombaWalk1.gif)   
 
 ### Step 6: Add two more buttons and code to make Mario walk
 Add two buttons to your Arduino and create circuits for each. Just like with Goomba, switch back and forth between two walking costumes. Mario should move in the x direction with each costume switch.  

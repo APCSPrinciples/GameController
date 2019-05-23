@@ -36,10 +36,11 @@ To create an animation of walking, switch back and forth between the two walking
 ![](GoombaWalk1.gif)   
 
 ### Step 6: Add one more button and code to make Mario walk left or right
-Add a second button to your circuit and connect another 10KΩ resistor and jumper wires just like you did with the first button. In the Arduino sprite, add code to check to see if one or both of the buttons is pressed.  Add two new broadcasts for walking left and right.   
+Add a second button to your circuit and connect it *Digital 3* with another 10KΩ resistor and jumper wires just like you did with the first button. In the Arduino sprite, add code to check to see if one or both of the buttons is pressed.  Add two new broadcasts for walking left and right.   
 ![](MoreBroadcasts.PNG)    
 In the Mario sprite, add two *When I receive* blocks to check for the new broadcasts. Below is a one possible block arrangement.   
 ![](MarioWalkRight.PNG)    
+
 ### Step 7: Add the Goomba "squish"
 Now we are going to add code to the Goomba sprite in our Mario program so that if Mario is jumping and he lands on the Goomba, the Goomba will squish. Add a forever loop to the Goomba sprite and:
  * create an if statement that checks to see if the Goomba is touching Mario and Mario's y position is greater than -110. If that is true:

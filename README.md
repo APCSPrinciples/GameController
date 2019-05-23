@@ -7,8 +7,8 @@ In this lab we will build a game controller for a Mario game. Since this is a la
 
 ### Step 1: Build a circuit with one button that can make Mario jump
 Our Game Controller will use the following parts:
-- Three (or more) push buttons
-- A 10KΩ resistor for each push button
+- Two push buttons
+- Two 10KΩ resistors
 - Jumper wires   
 
 Use the picture below to make sure you are using correct 10KΩ resistor.   

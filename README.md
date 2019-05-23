@@ -26,9 +26,9 @@ Ask your instructor for the `MarioBase.sb` file. Copy the `MarioBase.sb` file to
 
 ### Step 4: Write code to make Mario jump
 In the Arduino sprite, create a forever block that checks if the button is pressed. If it is, broadcast a message like "Mario Jump".   
-![](Broadcast.PNG)
-In the Mario sprite, add a *When I receive* block that makes Mario jump. You should have Mario switch costumes to make a more realistic jump. One way of making Mario jump is shown below.   
-![](Jump.PNG)
+![](Broadcast.PNG)   
+In the Mario sprite, add a *When I receive* block that makes Mario jump. You should have Mario switch costumes to make a more realistic jump. One way of making Mario jump is shown below.    
+![](Jump.PNG)   
 
 ### Step 5: Write code to make Goomba walk
 To create an animation of walking, switch back and forth between the two walking costumes. Goomba should "wrap" around the screen, when  Goomba goes off one side of the screen, Goomba should then appear on the other side. Use *wait* to pause Goomba after each step. Adjust the values until you are happy with Goomba's walk. See the sample code below for an example.   

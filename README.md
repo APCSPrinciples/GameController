@@ -25,7 +25,9 @@ Test it with a forever loop that says *Digital reading 2*. Press the button to
 Ask your instructor for the `MarioBase.sb` file. Copy the `MarioBase.sb` file to your *Scratch Projects* folder in your *My Documents* folder. Open the S4a program and then choose *File | Open* and browse to and select `MarioBase.sb`.
 
 ### Step 4: Write code to make Mario jump
-In the Mario sprite, create a forever block that checks if the button is pressed. If it is, make Mario go up and then down. You should have Mario switch costumes to make a more realistic jump. One way of making Mario jump is shown below.   
+In the Arduino sprite, create a forever block that checks if the button is pressed. If it is, broadcast a message like "Mario Jump".   
+![](Broadcast.PNG)
+In the Mario sprite, add a *When I receive* block that makes Mario jump. You should have Mario switch costumes to make a more realistic jump. One way of making Mario jump is shown below.   
 ![](Jump.PNG)
 
 ### Step 5: Write code to make Goomba walk

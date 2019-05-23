@@ -1,7 +1,7 @@
 # Build a Mario Game Controller
 In this lab we will build a game controller for a Mario game. Since this is a large project, we'll complete it in four stages:
 1. Build a circuit with one button and make Mario jump when that button is pressed
-2. Add one more button and code so that both Goomba dn Mario can walk
+2. Add one more button and code so that both Goomba and Mario can walk
 3. Write code so that if Mario jumps on top of Goomba, then Goomba is "squished"
 4. Write code so that if Goomba touches Mario when Mario is on the ground the game ends
 

@@ -18,7 +18,7 @@ Use the following circuit diagram to construct a circuit with one push button. T
 ![](GameController1.png)
 
 ### Step 2: Test the circuit
-Test the circuit by checking that *Digital 2* changes to *true* when you press the button.   
+Test the circuit by checking that *Digital 2* changes to *true* when you press the button.  (If it changes to *false* when you press the button, you may have the + and - wires reversed) 
 ![](TestDigital2.PNG)
 
 ### Step 3: Download the artwork and sounds for the Mario game and open it in S4A

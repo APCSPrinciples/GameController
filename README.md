@@ -22,7 +22,7 @@ Test the circuit by checking that *Digital 2* changes to *true* when you press 
 ![](TestDigital2.PNG)
 
 ### Step 3: Download the artwork and sounds for the Mario game and open it in S4A
-Ask your instructor for the `MarioBase.sb` file. Copy the `MarioBase.sb` file to your *Scratch Projects* folder in your *My Documents* folder. Open the S4A program and then choose *File | Open* and browse to and select `MarioBase.sb`.
+Download the `MarioBase.sb` file from Google classroom and copy the file to your *Scratch Projects* folder in your *My Documents* folder. Open the S4A program and choose *File | Open* and browse to and select `MarioBase.sb`.
 
 ### Step 4: Write code to make Mario jump
 In the Arduino sprite, create a forever block that checks if the button is pressed. If it is, broadcast a message like "Mario Jump" and wait for Mario to finish the jump.   
